@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+    <link rel="stylesheet" href="BoschiFlix/style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2040/2040627.png">
+    <title>BoschiFlix</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="page-title">
+            <img class="logo-boschiflix" src="https://fontmeme.com/permalink/210917/3cceb5731c9b7512754c67c350eca971.png" alt="netflix-font">
+        </h1>
+
+        <h2 class="page-subtitle">
+            Escolha/adicione o filme ou série que desejar.
+        </h2>
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="text" id="imagem" placeholder="Insira o endereço de imagem">
+        <input type="text" id="link" placeholder="Insira o link do filme"><br>
+        <input id="botao" type="button" value="Adicionar Filme" onclick="adicionarFilme()">
+      </div>
+
+      <details>
+          <summary> Ajuda </summary>
+          <p>Passe o mouse sobre o card de qualquer filme para saber mais informações sobre ele.</p>
+          <p>Se adicionar um filme ele irá aparecer embaixo do último carrossel.</p>
+      </details>
+
+      <h3 class="cronologia">Ordem Cronológica dos Filmes</h3>
+      <p>
+        <img class="marvel" src="https://conteudo.imguol.com.br/c/entretenimento/e2/2017/07/07/marvel-logo-1499441146328_v2_4x3.jpg" alt="">
+      </p><br>
+      
+      <div id="listaFilmes"></div>
+      <div id="nomeFilmesSeries"></div>
+      <img class="star-wars" src="http://www.blogdoselback.com.br/wp-content/uploads/2018/05/1_11.jpg" alt=""><br>
+      <div id="nomeFilmesSeries1"></div>
+      <h4 class="filmesAdd">Filmes/Séries Adicionados pelo botão</h4>
+      <div id="filmesAdd"></div>
+      
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+    <script src="BoschiFlix/script.js"></script>
+
+</body>
+</html>

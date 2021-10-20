@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://image.freepik.com/psd-gratuitas/alto-angulo-de-xicara-com-pipoca-e-oculos-de-cinema_23-2148607652.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.container {
+  text-align: center;
+  padding: 25px;
+  position: relative;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  font-size: 15pt;
+}
+
+img {
+  max-height: 250px;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+img:hover {
+  box-shadow: 0px 0px 5px 5px rgb(255, 255, 255);
+}
+
+.logo-boschiflix:hover {    
+  box-shadow: none;
+}
+
+#botao {
+  background-color: #c42c2c;
+  color: #ffffff;
+  width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#nome,
+#imagem,
+#link {
+  width: 175px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.cardFilmes {
+  position: relative;
+  display: inline-block;
+  padding: 30px;
+  width: 380px;
+  margin: 0 auto;
+}
+
+.cardFilmes .cardFilmesTexto {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px 0;
+  top: 100%;
+  left: 50%;
+  margin-left: 20px;
+  display: flow-root;
+  z-index: 1;
+}
+
+.cardFilmes:hover .cardFilmesTexto {
+  visibility: visible;
+  z-index: 100;
+}
+
+a{
+  text-decoration: none;
+}
+
+.slick-slide {
+  width: 50vw;
+  box-sizing: border-box;
+}
+
+.slick-next {
+  right: 50px;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 999;
+}
+
+.cronologia {
+  font-size: 18pt;
+  color: white;
+}
+
+.marvel{
+  width: 160px;
+}
+
+.star-wars {
+  width: 200px;
+}
+
+.dots {
+  background: white;
+}
+
+.marvel:hover, .star-wars:hover {
+  box-shadow: none;
+}
+
+p{
+  color: white;
+  width: 50%;
+  display: inline-block;
+}
+
+details {
+  font-weight: bold;
+  font-size: 14pt;
+  color: white;
+}
+
+.filmesAdd {
+  color: white;
+  font-weight: bold;
+  font-size: 18pt;
+}
