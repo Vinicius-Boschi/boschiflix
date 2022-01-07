@@ -145,6 +145,12 @@ var listaFilmes = [
   },
 
   {
+    nome:   "What If...? ",
+    imagem: "https://img.ibxk.com.br/2021/07/08/08155832888242.jpg",
+    link:   "https://topflix.vc/series/assistir-online-what-if/",
+  },
+
+  {
     nome:   "WandaVision",
     imagem: "https://lumiere-a.akamaihd.net/v1/images/bigred_ka_vert_brpo_cddc98da.jpeg",
     link:   "https://topflix.vc/series/assistir-online-wandavision/",
@@ -159,13 +165,31 @@ var listaFilmes = [
   {
     nome:   "Shang-Chi e a Lenda dos Dez Anéis",
     imagem: "https://upload.wikimedia.org/wikipedia/pt/thumb/7/74/Shang-Chi_and_the_Legend_of_the_Ten_Rings_poster.jpeg/250px-Shang-Chi_and_the_Legend_of_the_Ten_Rings_poster.jpeg",
-    link:   "",
+    link:   "https://topflix.vc/filmes/assistir-online-shang-chi-e-a-lenda-dos-dez-aneis/",
+  },
+
+  {
+    nome:   "Eternos",
+    imagem: "https://disneyplusbrasil.com.br/wp-content/uploads/2021/02/Os-Eternos-Calendario-1024x1022.jpg",
+    link:   "https://assistirtopflix.com/filmes/assistir-eternos-online/",
   },
 
   {
     nome:   "Homem-Aranha: Longe de Casa",
     imagem: "https://br.web.img2.acsta.net/pictures/19/07/05/17/30/5167951.jpg",
     link:   "https://topflix.vc/filmes/assistir-online-homem-aranha-longe-de-casa/",
+  },
+
+  {
+    nome:   "Homem-Aranha: Sem Volta para Casa",
+    imagem: "http://www.cinesystem.com.br/filmes/images/poster/homem-aranha-sem-volta-para-casa.jpg",
+    link:   "https://assistirtopflix.com/filmes/assistir-homem-aranha-sem-volta-para-casa-online/",
+  },
+
+  {
+    nome:   "Gavião Arqueiro",
+    imagem: "https://img.elo7.com.br/product/zoom/2ADA0DB/placa-decorativa-quadro-filme-gaviao-arqueiro-v644-placas-quarto.jpg",
+    link:   "https://assistirtopflix.com/series/assistir-gaviao-arqueiro-online/",
   },
 ] /* Aqui estão todos os filmes que vão aparecer na tela */
 
